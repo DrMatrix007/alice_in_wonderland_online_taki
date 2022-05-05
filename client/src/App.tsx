@@ -5,7 +5,7 @@ import useWebSocket from './hooks/useWebSocket'
 import useGame from './hooks/useGame'
 import GameComponent from './components/GameComponent'
 
-const SERVER_URL = 'ws://alice-in-wonderland-online-taki-backend.vercel.app/'
+const SERVER_URL = 'wss://alice-in-wonderland-online-taki-backend.vercel.app/'
 
 function App() {
   const [inputid, setinputid] = useState("")
